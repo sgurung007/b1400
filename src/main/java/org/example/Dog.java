@@ -15,12 +15,8 @@ public class Dog implements Animal {
     public void weightAnimal() {
         System.out.println("dog weight");
     }
-
-    public void soundAnimal(){
-        System.out.println("dog sound");
-    }
     
-     @Override
+
     public void colorAnimal() {
         System.out.println("dog color");
     }
