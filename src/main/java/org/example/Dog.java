@@ -10,4 +10,10 @@ public class Dog implements Animal {
     public void typeAnimal() {
         System.out.println("dog type");
     }
+    
+    @Override
+    public void weightAnimal() {
+        System.out.println("dog weight");
+    }
+    
 }
