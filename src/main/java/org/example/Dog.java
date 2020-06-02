@@ -20,4 +20,10 @@ public class Dog implements Animal {
         System.out.println("dog sound");
     }
     
+     @Override
+    public void colorAnimal() {
+        System.out.println("dog color");
+    }
+    
+    
 }
